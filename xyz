@@ -1,0 +1,130 @@
+# # # # # # a=lambda x:x**2
+# # # # # # print(a(9))
+
+# # def abc(n):
+# #      for i in range(1,11):
+# #     print(n,"x",i,"=",n*i) 
+# #  abc(8)
+
+
+
+
+# # # # range=[3,4,6,9,10]
+# # # # result=filter(lambda x:x%3!=0,range)
+# # # # print(list(result))
+
+
+
+
+# # # from functools import reduce
+# # # a={2,5,8,10,5,9}
+# # # ab=reduce(lambda x,y:a+1,a)
+# # # print(set(ab))
+
+
+
+
+# # # file handling
+
+# # a=open('function.py','r')
+# # for each in a:
+# #     print(a.read())
+
+
+
+
+# # file=open('loops.py','r')
+# # print(file.read(2))
+
+
+
+# # file=open('abc','w')
+# # file.write("this is the write command")
+# # file.write("It allows us to write in a particular file")
+# # file.close()
+
+
+
+
+
+# file=open('abc','a')
+# file.write("add this data in the file")
+# file.close()
+
+
+
+# a=[20,90,100,55,80,200,5000]
+# for i in range(1):
+#    if i<100:
+#         print("the third largest number")
+#    else:
+#         print("wrong number...")
+        
+
+
+
+
+# a={"name":"kriss","age":20,"phone_number":941233899,"car":"BMW"}
+# ab={
+#     "name":"kriss",
+#     "age":20,
+#     "phone_number":941233899,
+#     "car":"BMW"
+# }
+# x=ab.values()
+# print(x)
+
+
+
+
+# a=0,1,22,3,444,5,6666,7,88888,9,1010101010
+
+# ab=[i*2 for i in range(1, 6) if i !=4]
+# print(ab)
+
+
+# # 0,1,22,3,444,5,6666,7,88888,9,101010101010
+
+# numbers=912375781293812637398236
+# sum=0
+# for x in range(numbers):
+#     sum=sum+x
+#     print("the sum is:",sum)
+
+
+
+
+# question2....
+# ab=[i if i % 2 == 0 (str(i) * i) else i for i in range(0,11)  ]
+# print(ab)
+# for i in range(0, 10):
+#     if i % 2 == 0:
+#         print(str(i) * i)
+#     else:
+#         print(i)
+
+
+
+# question1....
+a=[20,90,100,55,80,200,5000,100,101,400,502,79]
+def max_value(list):
+    max=list[0]
+    min=list[79]
+    for i in list:
+        
+        if i>max:
+            max=i
+            return max
+        print(max_value(a))
+
+
+
+
+    
+
+
+
+    
+# A=["hello","missispi","car","airoplan","bike","verygood"]
+# for x in A:
+#     if 
